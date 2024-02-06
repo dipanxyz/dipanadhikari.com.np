@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(aboutus.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+div{
+   margin:20px;
+ 
+}
+    
+/* styling for feed-back form  */
+#feedback-form{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: transparent;
+}
+/* Styling for heading*/
+#heading{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #fff;
+}
+/*Styling the input box inside a form*/
+.input-box{
+   height: 30px;
+   width: 100%;
+   border-radius: 10px;
+   border: 2px solid #fff;
+   margin-top: 4px;
+   margin-bottom: 10px;
+
+}
+#form-element{
+    display: inline-block;
+    
+}
+
+h4{
+    display:inline;
+    color: #fff;
+   } 
+   
+/*Styling submit button*/
+#button{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 20px;
+    height:30px;
+    width:100%;
+    color: #fff;
+    
+}
+#button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.532);
+    color: greenyellow;
+}
+
+
+/* aniamtion for content in body*/
+@keyframes body{
+    0% {
+       transform: translateX(-100%);
+    }
+    100%{
+    transform: translateX(0);
+    }
+  }
+
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+    animation-name: body;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.5,0,0.5,1);
+  
+
+}
+
+
+
+
+/*Styling the div of team members */
+#ankit{
+    
+    height: 100%;
+    width: 100%;
+   border-radius: 8px;
+   
+}
+#dipan{
+    height: 100%;
+    width: 100%;
+   border-radius: 8px;
+  
+}
+#pranita{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+   
+}
+#supreme{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+ 
+}
+#box-div{
+   height: fit-content;
+   width: 650px;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+  
+}
+
+/* css for next and previous button*/
+#prevButton{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color:whitesmoke;
+ font-weight: 900;
+}
+#prevButton:active{
+    color: #fff;
+    background-color: black;
+}
+#nextButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  background-color: whitesmoke;
+  font-weight: 900;
+
+}
+#nextButton:active{
+    color: #fff;
+    background-color: black;
+}
+#team-members{
+    color: #fff;
+}
+.image-ankit{
+    margin-left: 35%;
+    height: 170px;
+    width: 180px;
+    background-image: url(../BackgroundImages/Ankit.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 60%;
+}
+.image-pranita{
+    margin-left: 35%;
+    height: 170px;
+    width: 180px;
+    background-image: url(../BackgroundImages/pranita.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.image-supreme{
+    margin-left: 35%;
+    height: 170px;
+    width: 180px;
+    background-image: url(../BackgroundImages/supreme.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 60%;
+}
+.image-dipan{
+    margin-left: 35%;
+    height: 170px;
+    width: 180px;
+    background-image: url(../BackgroundImages/dipan.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 60%;
+}
+
+
+/*styling heading of content inside the team members box*/
+h3{
+    color: #fff;
+   
+}
+
+p{
+   color: #fff;
+}
