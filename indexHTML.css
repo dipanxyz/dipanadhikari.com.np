@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* creating a style for nav bar using class navbar*/
+.navbar {
+  height: 100px;
+  background-color: #001f3f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  animation-name: slogan;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.5,0,0.5,1);
+  animation-iteration-count: 1;
+ 
+} 
+
+/* styling logo*/
+#logo {
+  height: 97px;
+  width: 80px;
+  background-image: url(logo.jpg);
+  background-size: cover;
+  border: 2px solid transparent;
+}
+/*hover effect styling for logo*/
+#logo:hover {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+/* Styling the home */
+#home {
+  width: 50px;
+}
+@keyframes body{
+  0% {
+     transform: translateX(-100%);
+  }
+  100%{
+  transform: translateX(0);
+  }
+}
+body{
+  animation-name: body;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.5,0,0.5,1);
+}
+/*Css for div of Slogan*/
+#slogan {
+  height: 40px;
+  background-color: rgba(5, 5, 80, 0.767);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: slogan;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.25,0,0.25,1);
+  animation-iteration-count: 1;
+}
+/*giving margin to heart logo*/
+#heart {
+  margin-left: 5px;
+}
+/* This is the section for the styling of main body */
+.backgroundImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url(home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: slogan;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.5,0,0.5,1);
+  animation-iteration-count: 1;
+  
+} /*styles the paragraph */
+.main-content {
+  
+  height: fit-content;
+  width: 400px;
+  margin-left: 60%;
+  margin-top: 5%;
+  animation-name: slogan;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.5,0,0.5,1);
+  animation-iteration-count: 1;
+} /* font size of the text inside paragraph*/
+.main-content {
+  font-size: 1.08rem;
+}
+
+/* giving styles to footer section of the page*/
+.footer {
+  height: 54px;
+  background-color: #001f3f;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+h3{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+}
+.footer-service{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:#001f3f;
+  color: antiquewhite;
+
+}
+/*Heading of footer-section*/
+.our-service{
+  color: antiquewhite;
+  background-color: #001f3f;
+  text-align: center;
+  padding: 10px;
+  
+}
+.serviceName{
+ display: flex;
+ justify-content: space-around;
+ background-color: #001f3f;
+
+
+}
+.serviceName h3{
+  text-decoration: none;
+  color: antiquewhite;
+}
+.serviceContent{
+  padding: 10px;
+    width: 30%;
+    height: fit-content;
+}
