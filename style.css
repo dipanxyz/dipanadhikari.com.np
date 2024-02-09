@@ -18,7 +18,7 @@
 
     width: 100%;
 
-    background: coral;
+    background: url(blog.jpg);
 
     position: absolute;
 
@@ -33,8 +33,6 @@
     height: 559px;
 
     position: absolute;
-
-    background: url(blog.jpg);
 
     background-size: cover;
 
