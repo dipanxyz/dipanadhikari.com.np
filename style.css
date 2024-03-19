@@ -293,3 +293,7 @@ nav ul li a:hover
     padding-left: 60px;
 
 }
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
