@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | CodeWithTanveer";
+            document.title = "Dipan Adhikari";
             $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
         else {
